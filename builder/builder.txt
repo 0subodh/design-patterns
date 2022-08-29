@@ -1,0 +1,7 @@
+- some objects are simple and can be created in a single initializer call
+- other objects require a lot of ceremony to created
+- having an object with 10 initializer arguments is not productive
+- insted, opt for piecewise construction
+
+Builder
+-when piecewise object construction is complicated, Buider provide an API for doing it succintly
